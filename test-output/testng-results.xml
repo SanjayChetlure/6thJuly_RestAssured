@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-28T08:03:01 IST" name="Default suite" finished-at="2024-12-28T08:03:02 IST" duration-ms="1052">
+  <suite started-at="2024-12-29T07:52:55 IST" name="Default suite" finished-at="2024-12-29T07:52:56 IST" duration-ms="1208">
     <groups>
     </groups>
-    <test started-at="2024-12-28T08:03:01 IST" name="Default test" finished-at="2024-12-28T08:03:02 IST" duration-ms="1052">
-      <class name="P1_BasicHTTPRequests.ex4_deleteRequest_Students">
-        <test-method signature="TC1_deleteStudnestData()[pri:1, instance:P1_BasicHTTPRequests.ex4_deleteRequest_Students@6eda5c9]" started-at="2024-12-28T08:03:01 IST" name="TC1_deleteStudnestData" finished-at="2024-12-28T08:03:02 IST" duration-ms="1028" status="PASS">
+    <test started-at="2024-12-29T07:52:55 IST" name="Default test" finished-at="2024-12-29T07:52:56 IST" duration-ms="1208">
+      <class name="P2_DiffrentWaysOfCreatingPostRequestBody.Ex4_Using_POJOClass">
+        <test-method signature="TC1_CreateNewStudentDetails()[pri:1, instance:P2_DiffrentWaysOfCreatingPostRequestBody.Ex4_Using_POJOClass@6eda5c9]" started-at="2024-12-29T07:52:55 IST" name="TC1_CreateNewStudentDetails" finished-at="2024-12-29T07:52:56 IST" duration-ms="1183" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC1_deleteStudnestData -->
-      </class> <!-- P1_BasicHTTPRequests.ex4_deleteRequest_Students -->
+        </test-method> <!-- TC1_CreateNewStudentDetails -->
+      </class> <!-- P2_DiffrentWaysOfCreatingPostRequestBody.Ex4_Using_POJOClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
