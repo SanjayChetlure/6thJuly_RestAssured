@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="P1_BasicHTTPRequests.ex1_getRequest">
+      <class name="P3_Logging_Path_And_QueryParameters_Cookies_Headers.Ex3_Cookies">
         <methods>
-          <include name="TC"/>
+          <include name="testCookies"/>
         </methods>
-      </class> <!-- P1_BasicHTTPRequests.ex1_getRequest -->
+      </class> <!-- P3_Logging_Path_And_QueryParameters_Cookies_Headers.Ex3_Cookies -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
