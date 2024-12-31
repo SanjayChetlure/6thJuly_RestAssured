@@ -29,43 +29,6 @@
         "SQL",
         "Python"
       ]
-    },
-    {
-      "id": "4",
-      "courses": [
-        "selenium",
-        "Python"
-      ],
-      "phone": "4444",
-      "name": "Devika",
-      "location": "pune"
-    },
-    {
-      "id": "5",
-      "name": "Pooja",
-      "location": "Nanded",
-      "phone": "5555",
-      "courses": [
-        "Java",
-        "Python"
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Ajay",
-      "location": "Delhi",
-      "phone": "6666",
-      "courses": [
-        "Manual",
-        "Automation"
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Ramesh",
-      "location": "Delhi",
-      "phone": "7777",
-      "courses": null
     }
   ]
 }

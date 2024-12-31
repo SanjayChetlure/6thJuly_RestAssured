@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="P3_Logging_Path_And_QueryParameters_Cookies_Headers.Ex3_Cookies">
+      <class name="P4_ParsingJSONData.ParsingJSONResponseData">
         <methods>
-          <include name="testCookies"/>
+          <include name="testJSONResponse1"/>
         </methods>
-      </class> <!-- P3_Logging_Path_And_QueryParameters_Cookies_Headers.Ex3_Cookies -->
+      </class> <!-- P4_ParsingJSONData.ParsingJSONResponseData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
