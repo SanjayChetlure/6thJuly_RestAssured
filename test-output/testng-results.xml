@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-31T08:03:04 IST" name="Default suite" finished-at="2024-12-31T08:03:06 IST" duration-ms="1693">
+  <suite started-at="2025-01-01T08:12:26 IST" name="Default suite" finished-at="2025-01-01T08:12:27 IST" duration-ms="1085">
     <groups>
     </groups>
-    <test started-at="2024-12-31T08:03:04 IST" name="Default test" finished-at="2024-12-31T08:03:06 IST" duration-ms="1693">
+    <test started-at="2025-01-01T08:12:26 IST" name="Default test" finished-at="2025-01-01T08:12:27 IST" duration-ms="1085">
       <class name="P4_ParsingJSONData.ParsingJSONResponseData">
-        <test-method signature="testJSONResponse1()[pri:1, instance:P4_ParsingJSONData.ParsingJSONResponseData@6eda5c9]" started-at="2024-12-31T08:03:04 IST" name="testJSONResponse1" finished-at="2024-12-31T08:03:06 IST" duration-ms="1663" status="PASS">
+        <test-method signature="getAllTitlesFromResponse()[pri:3, instance:P4_ParsingJSONData.ParsingJSONResponseData@5f058f00]" started-at="2025-01-01T08:12:26 IST" name="getAllTitlesFromResponse" finished-at="2025-01-01T08:12:27 IST" duration-ms="1057" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJSONResponse1 -->
+        </test-method> <!-- getAllTitlesFromResponse -->
       </class> <!-- P4_ParsingJSONData.ParsingJSONResponseData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

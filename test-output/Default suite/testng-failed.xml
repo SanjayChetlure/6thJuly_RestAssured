@@ -5,7 +5,7 @@
     <classes>
       <class name="P4_ParsingJSONData.ParsingJSONResponseData">
         <methods>
-          <include name="testJSONResponse1"/>
+          <include name="testJSONResponse2"/>
         </methods>
       </class> <!-- P4_ParsingJSONData.ParsingJSONResponseData -->
     </classes>
