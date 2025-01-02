@@ -5,7 +5,7 @@
     <classes>
       <class name="P4_ParsingJSONData.ParsingJSONResponseData">
         <methods>
-          <include name="testJSONResponse2"/>
+          <include name="verifySpecificAuthorFromResponse"/>
         </methods>
       </class> <!-- P4_ParsingJSONData.ParsingJSONResponseData -->
     </classes>

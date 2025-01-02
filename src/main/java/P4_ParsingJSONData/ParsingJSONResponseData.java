@@ -67,7 +67,7 @@ public class ParsingJSONResponseData
 	
 	
 	
-	@Test(priority = 3)
+	//@Test(priority = 3)
 	public void getAllTitlesFromResponse() 
 	{
 		//approach3: Converting Response into JSON Object
@@ -86,15 +86,64 @@ public class ParsingJSONResponseData
 		
 		for(int i=0; i<=length-1; i++)      // 0 to 3
 		{  //                                                    0
-			String title = jo.getJSONArray("book").getJSONObject(i).get("auther").toString();
+			//String title = jo.getJSONArray("book").getJSONObject(i).get("auther").toString();
+			String title = jo.getJSONArray("book").getJSONObject(i).getString("auther");
 			System.out.println(title);
 		}
 	}
 
 	
 	
+	   // @Test(priority = 4)
+		public void verifySpecificAuthorFromResponse() 
+		{
+			Response resp = given()    
+								.contentType(ContentType.JSON)
+							.when()
+								.get("http://localhost:3000/store");
+			
+			JSONObject jo=new JSONObject(resp.asString());      
+			
+			boolean AuthorFound=false;
+			String expAuthor="Ajay";
+			
+			int lastIndex = jo.getJSONArray("book").length()-1;
+			for(int i=0; i<=lastIndex; i++)
+			{
+				String actTitle = jo.getJSONArray("book").getJSONObject(i).getString("auther");
+				if(actTitle.equals(expAuthor)) 
+				{
+					AuthorFound=true;
+					break;
+				}
+			}
+			Assert.assertTrue(AuthorFound,"Failed : Author not found  -   ");
+		}
+
 	
 	
+		@Test(priority = 5)
+		public void verifyTotalPriceFromResponse() 
+		{
+			Response resp = given()    
+								.contentType(ContentType.JSON)
+							.when()
+								.get("http://localhost:3000/store");
+			
+			JSONObject jo=new JSONObject(resp.asString());      
+			
+			double totalPrice=0;
+			
+			int lastIndex = jo.getJSONArray("book").length()-1;
+			for(int i=0; i<=lastIndex; i++)
+			{
+				String price = jo.getJSONArray("book").getJSONObject(i).getString("price");
+				totalPrice=totalPrice+ Double.parseDouble(price);
+			}
+			
+			System.out.println(totalPrice);
+			Assert.assertEquals(totalPrice, 601,"Failed : price mismatch  -   ");
+		}	
 	
 	
 	
