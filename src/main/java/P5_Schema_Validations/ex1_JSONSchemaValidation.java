@@ -15,7 +15,7 @@ public class ex1_JSONSchemaValidation
 	@Test
 	public void jsonSchemaValidation()
 	{
-			given()		
+			given()	
 			.when()
 				.get("http://localhost:3000/store")			
 			.then()

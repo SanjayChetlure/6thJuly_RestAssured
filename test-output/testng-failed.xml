@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="P4_ParsingJSONData.ParsingJSONResponseData">
+      <class name="P6_Request_Response_Specification.Ex3_WitRequestResponseSpecBuilder">
         <methods>
-          <include name="verifySpecificAuthorFromResponse"/>
+          <include name="setReqSpec"/>
+          <include name="TC2_getSpecificStudentDatails"/>
         </methods>
-      </class> <!-- P4_ParsingJSONData.ParsingJSONResponseData -->
+      </class> <!-- P6_Request_Response_Specification.Ex3_WitRequestResponseSpecBuilder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

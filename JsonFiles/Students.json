@@ -19,16 +19,6 @@
         "python",
         "appium"
       ]
-    },
-    {
-      "id": "3",
-      "name": "Nayana",
-      "location": "Mumbai",
-      "phone": "3333",
-      "courses": [
-        "SQL",
-        "Python"
-      ]
     }
   ]
 }
