@@ -1,0 +1,22 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "name": "abc1",
+      "company": "TCS",
+      "phone": "1111"
+    },
+    {
+      "id": "2",
+      "name": "abc2",
+      "company": "IBM",
+      "phone": "222"
+    },
+    {
+      "id": "3",
+      "name": "abc3",
+      "company": "Vodafone",
+      "phone": "3333"
+    }
+  ]
+}
