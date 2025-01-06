@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-04T08:18:22 IST" name="Default suite" finished-at="2025-01-04T08:18:22 IST" duration-ms="80">
+  <suite started-at="2025-01-06T07:47:16 IST" name="Suite" finished-at="2025-01-06T07:47:18 IST" duration-ms="1919">
     <groups>
     </groups>
-    <test started-at="2025-01-04T08:18:22 IST" name="Default test" finished-at="2025-01-04T08:18:22 IST" duration-ms="80">
-      <class name="P7_Serialization_And_DeSerialization.ex3_serialization_Deserialization_Friends">
-        <test-method signature="DeSerialization()[pri:2, instance:P7_Serialization_And_DeSerialization.ex3_serialization_Deserialization_Friends@4d154ccd]" started-at="2025-01-04T08:18:22 IST" name="DeSerialization" finished-at="2025-01-04T08:18:22 IST" duration-ms="54" status="PASS">
+    <test started-at="2025-01-06T07:47:16 IST" name="Test" finished-at="2025-01-06T07:47:18 IST" duration-ms="1919">
+      <class name="P9_FakerLibrary_APIChaining.stu3_UpdateUser">
+        <test-method signature="test3_UpdateUser(org.testng.ITestContext)[pri:0, instance:P9_FakerLibrary_APIChaining.stu3_UpdateUser@71809907]" started-at="2025-01-06T07:47:18 IST" name="test3_UpdateUser" finished-at="2025-01-06T07:47:18 IST" duration-ms="55" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DeSerialization -->
-      </class> <!-- P7_Serialization_And_DeSerialization.ex3_serialization_Deserialization_Friends -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test3_UpdateUser -->
+      </class> <!-- P9_FakerLibrary_APIChaining.stu3_UpdateUser -->
+      <class name="P9_FakerLibrary_APIChaining.stu1_CreateUser">
+        <test-method signature="test_CreateUser(org.testng.ITestContext)[pri:0, instance:P9_FakerLibrary_APIChaining.stu1_CreateUser@52e6fdee]" started-at="2025-01-06T07:47:16 IST" name="test_CreateUser" finished-at="2025-01-06T07:47:18 IST" duration-ms="1742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CreateUser -->
+      </class> <!-- P9_FakerLibrary_APIChaining.stu1_CreateUser -->
+      <class name="P9_FakerLibrary_APIChaining.stu2_GetUser">
+        <test-method signature="test2_GetUser(org.testng.ITestContext)[pri:0, instance:P9_FakerLibrary_APIChaining.stu2_GetUser@6e20b53a]" started-at="2025-01-06T07:47:18 IST" name="test2_GetUser" finished-at="2025-01-06T07:47:18 IST" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_GetUser -->
+      </class> <!-- P9_FakerLibrary_APIChaining.stu2_GetUser -->
+      <class name="P9_FakerLibrary_APIChaining.stu4_DeleteUser">
+        <test-method signature="test4_DeleteUser(org.testng.ITestContext)[pri:0, instance:P9_FakerLibrary_APIChaining.stu4_DeleteUser@3ce1e309]" started-at="2025-01-06T07:47:18 IST" name="test4_DeleteUser" finished-at="2025-01-06T07:47:18 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4_DeleteUser -->
+      </class> <!-- P9_FakerLibrary_APIChaining.stu4_DeleteUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
