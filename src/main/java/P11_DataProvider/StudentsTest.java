@@ -14,7 +14,7 @@ public class StudentsTest
 	   }
 	   
 	   
-	  // @Test(dataProvider = "getExcelData", dataProviderClass = UtilityClass.class)
+	   @Test(dataProvider = "getExcelData", dataProviderClass = UtilityClass.class)
 	   public void TC2(String httpMethodName, String serviceEndpoint, int statusCode, String respMsg)
 	   {
 	   		System.out.println(httpMethodName);
@@ -23,7 +23,7 @@ public class StudentsTest
 	   		System.out.println(respMsg);
 	   }
 	   
-	   @Test(dataProvider = "getExcelData", dataProviderClass = UtilityClass.class)
+	   //@Test(dataProvider = "getExcelData", dataProviderClass = UtilityClass.class)
 	   public void TC3(String httpMethodName, String serviceEndpoint, int statusCode, String respMsg)
 	   {
 	   		System.out.println(httpMethodName);

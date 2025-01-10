@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="P11_DataProvider.SampleTest2">
+      <class name="Test_Module.ReqResTest">
         <methods>
-          <include name="TC2" invocation-numbers="2"/>
+          <include name="TC1_getUser"/>
         </methods>
-      </class> <!-- P11_DataProvider.SampleTest2 -->
+      </class> <!-- Test_Module.ReqResTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

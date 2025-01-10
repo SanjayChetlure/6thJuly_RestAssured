@@ -16,9 +16,9 @@ import org.testng.annotations.DataProvider;
 public class UtilityClass
 {	  
 	   @DataProvider
-	   public static Iterator<Object[]> getExcelData(Method method) throws IOException
+	   public static Iterator<Object[]> getExcelData(Method TCName) throws IOException
 	   {
-	       FileInputStream file = new FileInputStream("D:\\workspace\\3rdFebRestAssured\\src\\main\\java\\P11_DataProvider\\TD1.xlsx");
+	       FileInputStream file = new FileInputStream("D:\\6th July 2024\\Workspace\\6thJuly_RestAssured\\src\\main\\java\\P11_DataProvider\\TD1.xlsx");
 	       Workbook book = WorkbookFactory.create(file);
 	       Sheet sh = book.getSheet("Sheet1");
 	       
@@ -29,21 +29,21 @@ public class UtilityClass
 	       {         
 	           String SERVICE_ENDPOINT;
 	   	        
-	            String TCCellName = sh.getRow(i).getCell(1).getStringCellValue();;   //TC3
+	            String TCCellName = sh.getRow(i).getCell(1).getStringCellValue();;   //TC2
 	         	          
 	           //Checking test case name and returning that data
-	           if (method.getName().equalsIgnoreCase(TCCellName))  // T3 ==Tc3
+	           if (TCName.getName().equalsIgnoreCase(TCCellName))  // TC2==TC2
 	           {	        	   
 	        	   String ServiceBaseURL= sh.getRow(i).getCell(2).getStringCellValue();
 		           String ServiceURI= sh.getRow(i).getCell(3).getStringCellValue();
-		           String methodName = sh.getRow(i).getCell(4).getStringCellValue();
+		           String httpMethodName = sh.getRow(i).getCell(4).getStringCellValue();
 		           String statusCodeCell = sh.getRow(i).getCell(5).getStringCellValue();
 		           String respMsg = sh.getRow(i).getCell(6).getStringCellValue();
 	        	   
 	               //Set URL with URI
 	               SERVICE_ENDPOINT = ServiceBaseURL + ServiceURI;
-	               Object ob[] = {methodName, SERVICE_ENDPOINT,Integer.parseInt(statusCodeCell),respMsg};
-	               al.add(ob);
+	               Object ar[] = {httpMethodName, SERVICE_ENDPOINT,Integer.parseInt(statusCodeCell),respMsg};
+	               al.add(ar);
 	           }
 	       }
 	      
